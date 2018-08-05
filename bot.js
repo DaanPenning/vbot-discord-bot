@@ -53,4 +53,4 @@ function generatemessage(body) {
   return message;
 }
 
-bot.login(botsettings.token);
+bot.login(process.env.BOT_TOKEN);
